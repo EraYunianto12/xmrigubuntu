@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": true,
+    "background": false,
     "colors": true,
     "title": true,
     "randomx": {
@@ -36,8 +36,6 @@
         "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
-        "astrobwt-max-size": 550,
-        "astrobwt-avx2": false,
         "cn/0": false,
         "cn-lite/0": false
     },
@@ -63,9 +61,9 @@
     "pools": [
         {
             "algo": null,
-            "coin": "XMR",
-            "url": "stratum+tcp://randomxmonero.auto.nicehash.com:9200",
-            "user": "37pLrqMtUK45Hxvhq2LS9AiBqwwWLSmvKH.linux",
+            "coin": null,
+            "url": "donate.v2.xmrig.com:3333",
+            "user": "YOUR_WALLET_ADDRESS",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
