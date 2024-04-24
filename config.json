@@ -60,14 +60,15 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+           
+	    "algo": "rx/0",
+            "coin": "monero",
+            "url": "stratum+tcp://randomxmonero.auto.nicehash.com:9200",
+            "user": "37pLrqMtUK45Hxvhq2LS9AiBqwwWLSmvKH.ubuntu",
             "pass": "x",
-            "rig-id": null,
-            "nicehash": false,
-            "keepalive": false,
+            "rig-id": "ubuntu",
+            "nicehash": true,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
